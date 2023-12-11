@@ -1,12 +1,25 @@
 # Challenge - Latam Airlines
 
-El presente proyecto está enfocado en el Challenge Técnico para la posición de SSr QA Automation.
+El presente proyecto está enfocado en el Challenge Técnico para la posición de SSr QA Automation - Walther Choque.
 
 ## Alcance:
-    - Cypress ---> Si
-    - Patrón de Diseño Page Object Model ---> Si
-    - Principios SOLID ---> Si
-    - Allure Report ---> No
-    - Esperas Implícitas y Explícitas ---> Si
+    * Cypress ---> Si
+    * Patrón de Diseño Page Object Model ---> Si
+    * Principios SOLID ---> Si
+    * Allure Report ---> No
+    * Esperas Implícitas y Explícitas ---> Si
 
-* Como punto dicional se utilizo Gherkin para la redacción de los escenarios.
+-----------------------  
+
+* Como punto adicional se utilizo Gherkin para la redacción de los escenarios.
+ 
+-----------------------  
+
+* Se agrego una carpeta utils donde se considera algunos métodos utilitarios como:
+    - waitTo
+    - removeLogs
+    - hideFetchLog
+
+*  Se incluyo las dependencias de Allure Report; sin embargo, no se logro integrar con el escenario de prueba.
+
+-----------------------
