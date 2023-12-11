@@ -1,0 +1,23 @@
+{
+    "include": ["./node_modules/cypress", "cypress/**/*.js"],
+    "compilerOptions": {
+        "baseUrl": ".",
+        "moduleResolution": "node",
+        "types": [
+			"cypress",
+            "@shelex/cypress-allure-plugin",
+            "cypress-plugin-steps"
+		],
+        "paths": {
+            "@pages/*": ["./cypress/e2e/challengeLatam/pages/*"],
+            "@helper/*": ["./cypress/support/helper/*"]
+        }
+    },
+    "reporterEnabled": "spec, mocha-junit-reporter",
+    "mochaJunitReporterReporterOptions": {
+		"mochaFile": "reports/test-results.xml",
+		"toConsole": false,
+		"outputs": true,
+		"testCaseSwitchClassnameAndName": true
+	}
+}

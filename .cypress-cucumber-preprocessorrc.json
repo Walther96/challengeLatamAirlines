@@ -1,0 +1,12 @@
+{
+	"nonGlobalStepDefinitions": true,
+	"stepDefinitions": "cypress/e2e/challengeLatam/stepDefinitions/*.{js,ts}",
+	"json": {
+		"enabled": true,
+		"output": "./reports/cucumber-report.json"
+	},
+	"messages": {
+		"enabled": true,
+		"output": "./reports/cucumber-messages.ndjson"
+	}
+}

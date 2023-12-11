@@ -1,0 +1,27 @@
+{
+  "name": "challengelatamairlines",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "regression:chrome": "cypress run --browser chrome --reporter junit",
+    "file": "cypress run --reporter junit --spec",
+    "cy:run": "cypress run --headless --browser chrome --config-file cypress.config.js",
+    "cy:report": "allure generate allure-results --clean && allure open"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "15.1.4",
+    "@bahmutov/cypress-esbuild-preprocessor": "2.2.0",
+    "@shelex/cypress-allure-plugin": "^2.37.0",
+    "allure-commandline": "2.22.0",
+    "cypress": "12.14.0",
+    "cypress-multi-reporters": "1.6.2",
+    "esbuild-plugin-node-builtin-polyfills": "1.0.1",
+    "mocha-junit-reporter": "2.2.0",
+    "multiple-cucumber-html-reporter": "3.2.0"
+  }
+}
