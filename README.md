@@ -11,7 +11,8 @@ El presente proyecto está enfocado en el Challenge Técnico para la posición d
 
 -----------------------  
 
-* Como punto adicional se utilizo Gherkin para la redacción de los escenarios.
+* Como punto adicional se utilizo Gherkin para la redacción de los escenarios. El orden sería el siguiente:
+    .feature ==> pages ==> stepDefinitions <== utils
  
 -----------------------  
 
